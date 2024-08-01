@@ -12,6 +12,7 @@ The dataset used in this project is the Heart Failure Prediction Dataset from Ka
 
 # Dataset Features
 
+
 1. age
 
 2.sex
