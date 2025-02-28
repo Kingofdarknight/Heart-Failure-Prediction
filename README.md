@@ -1,40 +1,61 @@
-# Heart-Failure-Prediction
+# Heart Failure Prediction  
 
-Welcome to the Heart Failure Prediction project! This repository contains code and resources for predicting heart failure using machine learning techniques. The goal is to build and evaluate models that can predict the likelihood of heart failure based on patient data.
+Welcome to the **Heart Failure Prediction** project! This repository contains code and resources for predicting heart failure using machine learning techniques. The primary goal is to develop models that help identify the risk of heart failure based on patient data, enabling early detection and effective management.  
 
-# Project Overview
+---
 
-Heart failure is a critical condition that can be managed more effectively with early detection. This project leverages machine learning algorithms to analyze patient data and predict the risk of heart failure. The focus is on developing models that can assist healthcare professionals in making informed decisions.
+## Project Overview  
 
-# Data
+Heart failure is a severe condition, but its impact can be reduced through early detection and proactive care. This project uses machine learning algorithms to:  
+- Analyze patient data.  
+- Predict the likelihood of heart failure.  
+- Assist healthcare professionals in making informed decisions.  
 
-The dataset used in this project is the Heart Failure Prediction Dataset from Kaggle. It contains various patient attributes such as age, blood pressure, and serum cholesterol levels.
+---
 
-# Dataset Features
+## Data  
 
+The dataset used for this project is the **Heart Failure Prediction Dataset** from Kaggle. It includes patient attributes that are critical for heart failure analysis, such as age, blood pressure, and cholesterol levels.  
 
-1. age
+---
 
-2.sex
+## Dataset Features  
 
-3.chest pain type (4 values)
+The dataset consists of the following attributes:  
+1. **Age**  
+2. **Sex**  
+3. **Chest Pain Type** (4 values)  
+4. **Resting Blood Pressure**  
+5. **Serum Cholesterol** (mg/dl)  
+6. **Fasting Blood Sugar** (> 120 mg/dl)  
+7. **Resting Electrocardiographic Results** (values: 0, 1, 2)  
+8. **Maximum Heart Rate Achieved**  
+9. **Exercise-Induced Angina**  
+10. **Oldpeak** (ST depression induced by exercise relative to rest)  
+11. **Slope of the Peak Exercise ST Segment**  
+12. **Number of Major Vessels** (0-3) colored by fluoroscopy  
+13. **Thalassemia (Thal)**:  
+    - 0 = Normal  
+    - 1 = Fixed Defect  
+    - 2 = Reversible Defect  
 
-4.resting blood pressure
+---
 
-5.serum cholestoral in mg/dl
+## How to Use  
 
-6.fasting blood sugar > 120 mg/dl
+1. Clone this repository to your local machine.  
+2. Install the required dependencies using `pip install -r requirements.txt`.  
+3. Run the data preprocessing and modeling scripts provided in the repository.  
+4. Evaluate the performance of different models and visualize the results.  
 
-7.resting electrocardiographic results (values 0,1,2)
+---
 
-8.maximum heart rate achieved
+### Contributions  
 
-9.exercise induced angina
+Contributions to improve the project are welcome! Feel free to fork this repository, raise issues, or create pull requests.  
 
-10.oldpeak = ST depression induced by exercise relative to rest
+---
 
-11.the slope of the peak exercise ST segment
+### License  
 
-12.number of major vessels (0-3) colored by flourosopy
-
-13.thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
+This project is open-source and available under the [MIT License](LICENSE).  
